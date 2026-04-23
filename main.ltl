@@ -1,0 +1,15 @@
+// ltl-regalloc-demo/main.ltl
+//
+// Linear-scan register allocator on toy IR.
+//
+// This is an early skeleton — contribution is welcome! See the
+// README for build instructions.
+
+import std::io
+import std::fmt
+
+pub fn main(args: [str]) -> Int {
+    io::println("ltl-regalloc-demo v0.1.0")
+    io::println("Linear-scan register allocator on toy IR.")
+    0
+}
